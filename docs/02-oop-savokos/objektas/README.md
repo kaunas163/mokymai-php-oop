@@ -1,0 +1,2 @@
+# Kas yra objektas?
+
