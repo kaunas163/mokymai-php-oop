@@ -88,19 +88,7 @@ Jūsų eilė: sugalvokite dar bent po vieną klasės pavyzdį, apibūdinant koki
 
 ## Kas sudaro klasę?
 
-- Duomenys (kintamieji).
-- Algoritmai (funkcijos / metodai).
+Iš pavyzdžių tikriausiai jau supratote kas įeina į kiekvieną klasę:
 
-## Klasės kūrimas
-
-- Klasė rašoma kuriamos programos namespace ribose. Tačiau, jei reikia, galima rašyti ir už namescape ribų.
-- Dažniausiai kiekviena klasė būna iškeliama į atskirą failą.
-- Kuriant klasę, jos pavadinimas turėtų būti vienaskaita.
-- Kuriamoje klasėje galima aprašyti kiekvieną bendrą objektų atributą per kintamuosius, bei jų atliekamus veiksmus per funkcijas (metodus).
-- Patogiausia būna kai klasės kintamieji yra surašomi klasės viršuje, o funkcijos (metodai) iškart po jų.
-
-## Duomenų ir metodų pasiekiamumas
-
-- Prie kiekvieno kintamojo ar metodo reiktų nurodyti access specifier (public, private arba protected). Nenurodžius, automatiškai laikoma, kad tas kintamasis ar metodas yra private, t. y. pasiekiamas tik tos klasės ribose.
-- Klasėje esantys metodai pasiekia visus duomenis esančius klasės lygyje, nepriklausomai nuo jų access specifier.
-
+- **Duomenys (kintamieji)** - tai kažkokie bendri objektų atributai, duomenys. Jie yra užrašomi kintamųjų pavidalu.
+- **Algoritmai (funkcijos / metodai)** - tai veiksmai ką galima atlikti su šiais bendrais atributais, duomenimis, ar apskritai kokius veiksmus šis objektas gali atlikti, kaip jis siejasi su išoriniu pasauliu.

@@ -15,9 +15,11 @@ module.exports = {
                 children: [
                     '02-oop-savokos/',
                     '02-oop-savokos/klase/',
+                    '02-oop-savokos/klases-kurimas/',
                     '02-oop-savokos/objektas/',
                 ]
-            }
+            },
+            '03-duomenu-ir-metodu-pasiekiamumas/'
         ]
     }
 }
